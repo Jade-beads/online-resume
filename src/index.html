@@ -304,14 +304,13 @@
       <div class="wrapper">
         <div id="skills"></div>
         <ul>
-          <li>熟悉页面制作技巧，能将设计稿<strong>完美还原</strong></li>
-          <li>熟悉<strong>前后端分离</strong>技术，包括 AJAX、跨域、前端路由、Cookie 等</li>
-          <li>熟练掌握 <strong>Vue全家桶</strong>的使用，包括 VueCli、VueRouter、Vuex 等</li>
-          <li>熟悉 ES6语法，可以在项目中大量使用</li>
+          <li>熟练掌握制作技巧，能将设计稿<strong>完美还原</strong></li>
+          <li>熟练掌握<strong>前后端分离</strong>技术，包括 AJAX、跨域、前端路由、Cookie 等</li>
+          <li>熟练掌握 <strong>Vue(2/3)全家桶</strong>的使用，包括 VueCli、VueRouter、Vuex、Vite、VuePress 等</li>
+          <li>熟练掌握 ES6语法，可以在项目中大量使用</li>
           <li>熟悉微信小程序的开发，了解uni-app的简单使用</li>
-          <li>熟悉Vue3.0以及其全家桶的使用</li>
           <li>熟悉Nuxt.js 可以使用其开发SSR项目</li>
-          <li>了解 <strong>TypeScript</strong> 的使用</li>
+          <li>熟悉 <strong>TypeScript</strong> 的使用</li>
           <li>了解 <strong>Webpack 的配置和优化</strong></li>
           <li>了解NodeJs，以及express框架的使用</li>
           <li>了解Golang，目前主要学习方向</li>
@@ -351,7 +350,6 @@
             <strong>Promise</strong>的实现以及then方法的手写实现
           </p>
           <p><strong>对象常用api</strong> ，深拷贝（deepClone）、合并两个对象（mergeObject）、判断两个对象值是否相等（isEqual）、以及Instanceof等函数实现</p>
-          <p>通过对一些常用api的函数实现，使我对JS的理解以及api的使用都有了进一步的了解</p>
         </li>
       </ul>
     </section>
@@ -421,7 +419,7 @@
         </li>
         <li>
           <header>
-            <h3>MapOA（PC端）</h3>
+            <h3>OA（PC端）</h3>
           </header>
           <br />
           <h4>项目介绍：</h4>
@@ -448,42 +446,41 @@
             合同管理模块中使用element-ui搭建项目的布局，使用el-table渲染，使用分页组件对合同分页显示，实现合同实现增、删、改、查操作，在出差休假报销模块中使用el-upload上传报销凭证以及使用el-table显示出差休假报销记录
           </p>
         </li>
-        <li>
-          <header>
-            <h3>Map惠农（微信小程序）</h3>
-          </header>
-          <br />
-          <h4>项目介绍：</h4>
-          <p>
-            基于原生微信小程序框架，主要服务于农艺师，对农艺师所属农户以及地块可视化管理
-          </p>
-          <h4>技术栈：</h4>
-          <p>微信小程序框架</p>
-          <h4>职责内容：</h4>
-          <p>
-            实现分类页面的渲染（使用scroll-view实现页面局部滚动功能）
-          </p>
-          <p>
-            对分类数据存入Stroage中，添加判断条件，5分钟内重复访问则不请求最新数据，优化用户体验
-          </p>
-          <p>
-            引导用户登录，使用wx.getUserInfo、wx.login获取用户信息并保存至Storage中
-          </p>
-          <p>
-            农艺师登录获取其账户信息并交换到当前用户token信息存入Storage中
-          </p>
-          <p>
-            对一些常用的api使用promise进行二次封装
-          </p>
-          <p>
-            对wx.getUserInfo、wx.showToast等api封装，使用时将不再以回调函数的形式，直接使用async/await的模式书写
-          </p>
-          <p>
-            对wx.request使用promise进行封装（添加wx.showLoading，对错误进行处理）
-          </p>
-          <p>对路由跳转进行二次封装，将需要用户登录获取用户token的页面进行路由拦截，判断其登录状态</p>
-        </li>
-
+<!--        <li>-->
+<!--          <header>-->
+<!--            <h3>Map惠农（微信小程序）</h3>-->
+<!--          </header>-->
+<!--          <br />-->
+<!--          <h4>项目介绍：</h4>-->
+<!--          <p>-->
+<!--            基于原生微信小程序框架，主要服务于农艺师，对农艺师所属农户以及地块可视化管理-->
+<!--          </p>-->
+<!--          <h4>技术栈：</h4>-->
+<!--          <p>微信小程序框架</p>-->
+<!--          <h4>职责内容：</h4>-->
+<!--          <p>-->
+<!--            实现分类页面的渲染（使用scroll-view实现页面局部滚动功能）-->
+<!--          </p>-->
+<!--          <p>-->
+<!--            对分类数据存入Stroage中，添加判断条件，5分钟内重复访问则不请求最新数据，优化用户体验-->
+<!--          </p>-->
+<!--          <p>-->
+<!--            引导用户登录，使用wx.getUserInfo、wx.login获取用户信息并保存至Storage中-->
+<!--          </p>-->
+<!--          <p>-->
+<!--            农艺师登录获取其账户信息并交换到当前用户token信息存入Storage中-->
+<!--          </p>-->
+<!--          <p>-->
+<!--            对一些常用的api使用promise进行二次封装-->
+<!--          </p>-->
+<!--          <p>-->
+<!--            对wx.getUserInfo、wx.showToast等api封装，使用时将不再以回调函数的形式，直接使用async/await的模式书写-->
+<!--          </p>-->
+<!--          <p>-->
+<!--            对wx.request使用promise进行封装（添加wx.showLoading，对错误进行处理）-->
+<!--          </p>-->
+<!--          <p>对路由跳转进行二次封装，将需要用户登录获取用户token的页面进行路由拦截，判断其登录状态</p>-->
+<!--        </li>-->
         <li>
           <header>
             <h3>西湖大学后台管理系统（PC）</h3>
@@ -503,31 +500,8 @@
             使用el-table对宿舍评比分数进行分类展示。负责学业分析模块中，使用el-table对学生成绩、班级成绩、年级成绩进行列表展示，使用el-form对成绩的进行修改
           </p>
         </li>
-        <!-- <li>
-          <header>
-            <h3>西湖大学官网（PC）</h3>
-          </header>
-          <br />
-          <h4>项目介绍：</h4>
-          <p>
-            西湖大学官网
-          </p>
-          <h4>技术栈：</h4>
-          <p>JQuery + Bootstrap实现响应式页面布局</p>
-          <h4>项目周期：</h4>
-          <p>2018-8 ~ 2019-8</p>
-          <h4>职责内容：</h4>
-          <p>
-            还原UI设计图，使用flexbel.js + rem进行页面响应式布局，使用swiper实现轮播图效果，使用JQuery实现图片移入移出的动画效果，对公共css以及公共html进行抽离
-          </p>
-        </li> -->
-
       </ol>
     </section>
-
-
-
-
     <section class="jobs">
       <h2>工作经历</h2>
       <ol>
@@ -544,28 +518,6 @@
             </li>
             <li>
               PC客户端侧的bugfix以及native的问题排查
-            </li>
-          </ul>
-        </li>
-        <li>
-          <header>
-            <h3> 北京每选科技有限公司 </h3>
-            <h4>前端开发工程师(Vue)</h4>
-            <span><time>2020年5月</time>~<time>2021年12月</time></span>
-          </header>
-          <h4 style="font-weight: bold;margin-bottom: 15px;">岗位职责：</h4>
-          <ul>
-            <li>
-              参与项目前端项目工作，高质量高效率完成工作；
-            </li>
-            <li>
-              负责公司前端项目的开发及维护
-            </li>
-            <li>
-              与后端开发人员联调接口；
-            </li>
-            <li>
-              与UI设计师配合，实现页面以及页面上的动态效果和交互效果，与同事 相互沟通，以便更好地完成工作
             </li>
           </ul>
         </li>
@@ -590,9 +542,6 @@
         </li>
       </ol>
     </section>
-
-
-
     <section class="education">
       <h2>教育经历</h2>
       <p>
